@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,14 +36,15 @@ const Header = () => {
                 Artwork and Vintage Appraisal GPT
               </h1>
               <p className="text-xs text-cyberpunk-vintage-cream/60">
-                Presented by <a 
-                  href="https://www.aiwebtools.ai" 
-                  className="text-cyberpunk-neon-blue hover:text-cyberpunk-neon-pink transition-colors"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  AiWebTools.Ai
-                </a>
+                Presented by <span className="text-cyberpunk-neon-blue hover:text-cyberpunk-neon-pink transition-colors">
+                  <a 
+                    href="https://www.aiwebtools.ai" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    AiWebTools.Ai
+                  </a>
+                </span>
               </p>
             </div>
           </a>
