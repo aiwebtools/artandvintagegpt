@@ -105,7 +105,7 @@ const Header = () => {
                   href="https://chatgpt.com/g/g-67df6b32898c8191b8739cfad97e62d9-artwork-and-vintage-appraisal-gpt" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-white hover:text-cyberpunk-neon-blue transition-colors duration-200"
+                  className="block bg-cyberpunk-deeper px-4 py-3 rounded-md shadow-md border border-cyberpunk-neon-blue/20 text-cyberpunk-gold shimmer-text font-semibold hover:bg-cyberpunk-deep-purple/80 transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Artwork and Vintage Appraisal GPT
@@ -116,7 +116,7 @@ const Header = () => {
                   href="https://antiqueappraisalgpt.lovable.app/?via=aiwebtools" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-white hover:text-cyberpunk-neon-blue transition-colors duration-200"
+                  className="block bg-cyberpunk-deeper px-4 py-3 rounded-md shadow-md border border-cyberpunk-neon-blue/20 text-cyberpunk-gold shimmer-text font-semibold hover:bg-cyberpunk-deep-purple/80 transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Antique & Collectables Appraisal GPT
@@ -125,7 +125,7 @@ const Header = () => {
               <li>
                 <a 
                   href="#faq" 
-                  className="block text-white hover:text-cyberpunk-neon-blue transition-colors duration-200"
+                  className="block bg-cyberpunk-deeper px-4 py-3 rounded-md shadow-md border border-cyberpunk-neon-blue/20 text-cyberpunk-gold shimmer-text font-semibold hover:bg-cyberpunk-deep-purple/80 transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   FAQ
@@ -134,7 +134,7 @@ const Header = () => {
               <li>
                 <a 
                   href="#disclaimer" 
-                  className="block text-white hover:text-cyberpunk-neon-blue transition-colors duration-200"
+                  className="block bg-cyberpunk-deeper px-4 py-3 rounded-md shadow-md border border-cyberpunk-neon-blue/20 text-cyberpunk-gold shimmer-text font-semibold hover:bg-cyberpunk-deep-purple/80 transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Disclaimer
@@ -145,7 +145,7 @@ const Header = () => {
                   href="https://www.aiwebtools.ai" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block px-4 py-2 glass-button rounded-md text-cyberpunk-neon-blue text-center"
+                  className="block bg-cyberpunk-darker px-4 py-3 rounded-md shadow-md border border-cyberpunk-neon-pink/30 text-cyberpunk-gold shimmer-text font-semibold hover:bg-cyberpunk-deep-purple/80 transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   More AI Tools

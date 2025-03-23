@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,6 +66,7 @@ export default {
 				cyberpunk: {
 					'dark': '#121212',
 					'darker': '#0a0a0a',
+					'deeper': '#060606',
 					'brown': '#3d2c1f',
 					'gold': '#d4af37',
 					'neon-blue': '#00f0ff',

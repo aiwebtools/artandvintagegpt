@@ -105,10 +105,10 @@
   .shimmer-text {
     background: linear-gradient(
       90deg, 
-      #00f0ff, 
-      #ffffff, 
-      #ff00f5,
-      #00f0ff
+      #d4af37, 
+      #fff8e0, 
+      #d4af37,
+      #fff8e0
     );
     background-size: 200% 100%;
     -webkit-background-clip: text;
@@ -116,5 +116,14 @@
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     animation: text-shimmer 6s infinite;
+  }
+
+  @keyframes text-shimmer {
+    0% { 
+      background-position: 0% center; 
+    }
+    100% { 
+      background-position: 200% center; 
+    }
   }
 }
