@@ -6,6 +6,15 @@ const Footer = () => {
     <footer className="relative bg-cyberpunk-darker/80 pt-20 pb-10">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
       
+      {/* Small disclaimer notice */}
+      <div className="container mx-auto px-4 mb-8">
+        <div className="text-center">
+          <p className="text-cyberpunk-vintage-cream/60 text-sm">
+            <strong>Notice:</strong> This service is provided for informational, educational, and research purposes only.
+          </p>
+        </div>
+      </div>
+      
       <div id="disclaimer" className="container mx-auto px-4 mb-16">
         <div className="text-center mb-10">
           <h2 className="inline-block text-3xl md:text-4xl font-bold mb-4 cyberpunk-border pb-2">
@@ -137,7 +146,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/disclaimers" 
                   className="text-cyberpunk-vintage-cream/70 hover:text-cyberpunk-neon-blue flex items-center transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
