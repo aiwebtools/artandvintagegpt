@@ -52,10 +52,12 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="mailto:Contact@ai-webtools.com" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 className="text-cyberpunk-neon-blue hover:text-cyberpunk-neon-pink transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Contact@ai-webtools.com
+                AiWebTools.Ai
               </a>
             </div>
           </div>
@@ -161,11 +163,11 @@ const Footer = () => {
         
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-cyberpunk-vintage-cream/60 text-sm mb-4 md:mb-0">
-            © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-cyberpunk-neon-blue transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+            © 2025 <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:text-cyberpunk-neon-blue transition-colors" target="_blank" rel="noopener noreferrer">AI WEB TOOLS LLC</a> All rights reserved.
           </p>
           
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyberpunk-neon-blue to-cyberpunk-neon-pink rounded-full text-white text-sm font-semibold hover:from-cyberpunk-neon-pink hover:to-cyberpunk-neon-blue transition-all duration-300"
             target="_blank"
             rel="noopener noreferrer"
