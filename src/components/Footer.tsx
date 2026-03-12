@@ -52,10 +52,12 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="mailto:Contact@ai-webtools.com" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 className="text-cyberpunk-neon-blue hover:text-cyberpunk-neon-pink transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Contact@ai-webtools.com
+                AiWebTools.Ai
               </a>
             </div>
           </div>

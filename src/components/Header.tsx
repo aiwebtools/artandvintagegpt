@@ -144,7 +144,7 @@ const Header = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-cyberpunk-darker px-4 py-3 rounded-md shadow-md border border-cyberpunk-neon-pink/30 text-cyberpunk-gold shimmer-text font-semibold hover:bg-cyberpunk-deep-purple/80 transition-colors duration-200"
