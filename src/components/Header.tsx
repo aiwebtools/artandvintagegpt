@@ -38,8 +38,8 @@ const Header = () => {
               <p className="text-xs text-cyberpunk-vintage-cream/60">
                 Presented by <span className="text-cyberpunk-neon-blue hover:text-cyberpunk-neon-pink transition-colors">
                   <a 
-                    href="https://www.aiwebtools.ai" 
-                    target="_blank" 
+                    href="https://aiwebtools.lovable.app/?via=aiwebtools" 
+                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     AiWebTools.Ai
