@@ -80,7 +80,7 @@ const Header = () => {
               Disclaimer
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 glass-button rounded-md text-cyberpunk-neon-blue"
