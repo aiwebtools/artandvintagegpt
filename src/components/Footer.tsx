@@ -165,7 +165,7 @@ const Footer = () => {
           </p>
           
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyberpunk-neon-blue to-cyberpunk-neon-pink rounded-full text-white text-sm font-semibold hover:from-cyberpunk-neon-pink hover:to-cyberpunk-neon-blue transition-all duration-300"
             target="_blank"
             rel="noopener noreferrer"
